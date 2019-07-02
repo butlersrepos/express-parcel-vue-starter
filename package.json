@@ -1,0 +1,27 @@
+{
+  "name": "jimmy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "parcel": "^1.12.3",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules src/server.mjs & parcel src/client/index.html --out-dir src/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
