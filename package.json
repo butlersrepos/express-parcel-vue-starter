@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
-    "parcel": "^1.12.3",
+    "parcel": "^2.8.2",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3"
   },
